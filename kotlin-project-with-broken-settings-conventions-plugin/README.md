@@ -1,4 +1,4 @@
-# Kotlin Project with Settings Included Build
+# Kotlin Project with Broken Settings Conventions Plugin
 
 This project is a Kotlin project that works with Gradle 8.14.3 but fails with Gradle 9.0.0.
 
@@ -15,5 +15,5 @@ Changing the gradle version in the [gradle-wrapper.properties](./gradle/wrapper/
    ```bash
    ./gradlew run
    ```
-2. Select the scenario `kotlin-project-with-settings-included-build`.
+2. Select the scenario `kotlin-project-with-broken-settings-conventions-plugin`.
 3. Query the desired models, such as `GradleBuild` (Build Model), `KotlinDslBaseScriptModel` (Kotlin DSL Base Model), or `KotlinDslScriptsModel` (Kotlin DSL Scripts Model).
