@@ -45,3 +45,4 @@ e: file:///<path>/gradle-resilient-sync-scenarios/kotlin-project-with-broken-pro
   - Navigation to anything defined in [project-conventions.gradle.kts](./build-logic/src/main/kotlin/project-conventions.gradle.kts) doesn't work.
   - There is a warning:
     ```Code insight is incomplete (Script configuration contains errors)```
+  - There is an error for exec API usages that is not available in Gradle 9.0.0+
