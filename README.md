@@ -16,4 +16,9 @@ The idea is that with this project and [gradle-client](https://github.com/gradle
    ```
 3. Select the scenario you want to use and query desired models.
    
-   
+## Scenarios
+Each scenario has its own README.md file with details about the scenario, current behavior with IDE, and expected behavior with IDE.
+Currently there are three scenarios:
+- [kotlin-multi-project-with-broken-project-script](./kotlin-multi-project-with-broken-project-script/README.md)
+- [kotlin-project-with-broken-project-conventions-plugin](./kotlin-project-with-broken-project-conventions-plugin/README.md)
+- [kotlin-project-with-broken-settings-conventions-plugin](./kotlin-project-with-broken-settings-conventions-plugin/README.md)
